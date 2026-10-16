@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pizza Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+<center>
+    <h1>🍕 PIZZA SHOP</h1>
+    <p>Fresh Pizza, Happy Moments!</p>
+
+    <a href="#form">Pesan Pizza</a> |
+    <a href="#hasil">Hasil Pesanan</a>
+</center>
+
+<hr>
+
+<h2 id="form">🍕 Form Pemesanan Pizza</h2>
+
+<p>Silakan isi formulir untuk memesan pizza favoritmu.</p>
+
+<form action="#hasil" method="get">
+
+    <h3>1. Data Pelanggan</h3>
+
+    <p>Nama Lengkap</p>
+    <input type="text" name="nama" required>
+
+    <p>Nomor Telepon</p>
+    <input type="tel" name="telepon" required>
+
+    <p>Alamat Pengiriman</p>
+    <textarea name="alamat" rows="3" cols="25"
+    required></textarea>
+
+    <hr>
+
+    <h3>2. Pilih Menu Pizza</h3>
+
+    <p>Menu Pizza</p>
+
+    <select name="pizza">
+        <option>Cheese Pizza</option>
+        <option>Pepperoni Pizza</option>
+        <option>Meat Lovers Pizza</option>
+        <option>Chicken Pizza</option>
+        <option>Vegetarian Pizza</option>
+    </select>
+
+    <p>Ukuran Pizza</p>
+
+    <input type="radio" name="ukuran"
+    value="Small" checked> Small
+    <br>
+
+    <input type="radio" name="ukuran"
+    value="Medium"> Medium
+    <br>
+
+    <input type="radio" name="ukuran"
+    value="Large"> Large
+
+    <p>Tambahan Topping</p>
+
+    <input type="checkbox" name="topping"
+    value="Extra Cheese"> Extra Cheese
+    <br>
+
+    <input type="checkbox" name="topping"
+    value="Mushroom"> Mushroom
+    <br>
+
+    <input type="checkbox" name="topping"
+    value="Sausage"> Sausage
+    <br>
+
+    <input type="checkbox" name="topping"
+    value="Beef"> Beef
+
+    <p>Jumlah Pesanan</p>
+
+    <input type="number" name="jumlah"
+    min="1" value="1" required>
+
+    <hr>
+
+    <h3>3. Pembayaran</h3>
+
+    <p>Metode Pembayaran</p>
+
+    <select name="pembayaran">
+        <option>COD</option>
+        <option>Transfer Bank</option>
+        <option>E-Wallet</option>
+    </select>
+
+    <p>Catatan Pesanan</p>
+
+    <textarea name="catatan" rows="3" cols="25"
+    placeholder="Contoh: saus dipisah"></textarea>
+
+    <p>
+        <input type="submit" value="Pesan Sekarang">
+        <input type="reset" value="Reset">
+    </p>
+
+</form>
+
+<hr>
+
+<h2 id="hasil">🎉 THANK YOU!</h2>
+
+<p>
+    Terima kasih telah memesan di Pizza Shop.
+    Berikut contoh tampilan hasil pemesanan.
+</p>
+
+<h3>📋 Detail Pesanan</h3>
+
+<p><b>Nama Pelanggan:</b> Abi bakrin lubis</p>
+
+<p><b>Nomor Telepon:</b> 081234567890</p>
+
+<p><b>Alamat:</b> Srengseng sawah  No. 10</p>
+
+<p><b>Menu Pizza:</b> Pepperoni Pizza</p>
+
+<p><b>Ukuran:</b> Medium</p>
+
+<p><b>Topping:</b> Extra Cheese, Mushroom</p>
+
+<p><b>Jumlah:</b> 2 Pizza</p>
+
+<p><b>Pembayaran:</b> COD</p>
+
+<p><b>Catatan:</b> Saus dipisah</p>
+
+<hr>
+
+<center>
+    <h3>🍕 Enjoy Your Pizza!</h3>
+
+    <p>Pizza Shop - Fresh From Our Oven</p>
+
+    <a href="#form">Pesan Lagi</a>
+</center>
+
+</body>
+</html>
